@@ -1,0 +1,50 @@
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-05/2025-07-05 03:06:12.475118
+Message: Notification for 1: Rice Shower: Low balance warning $4.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-05/2025-07-05 03:06:12.476792
+Message: Notification for 1: Rice Shower: Large transaction $10,400.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-05/2025-07-05 03:07:17.091012
+Message: Notification for 1: Rice Shower: Low balance warning $4.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-05/2025-07-05 03:07:17.094168
+Message: Notification for 1: Rice Shower: Large transaction $10,400.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-05/2025-07-05 03:07:25.139045
+Message: Notification for 1: Rice Shower: Low balance warning $4.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-05/2025-07-05 03:07:25.140185
+Message: Notification for 1: Rice Shower: Large transaction $10,400.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-05/2025-07-05 03:08:15.042139
+Message: Notification for 1: Rice Shower: Low balance warning $4.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-05/2025-07-05 03:08:15.043346
+Message: Notification for 1: Rice Shower: Large transaction $10,400.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-06/2025-07-06 00:18:04.214624
+Message: Notification for 1: Rice Shower: Low balance warning $4.00: on account 20200
+---
+---
+To: rshowerbluerose@uma.com
+Subject: ALERT: Unusual Activity: 2025-07-06/2025-07-06 00:18:04.215170
+Message: Notification for 1: Rice Shower: Large transaction $10,400.00: on account 20200
+---
