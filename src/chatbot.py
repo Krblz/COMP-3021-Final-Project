@@ -3,7 +3,7 @@
 __author__ = "Keith Robles"
 __version__ = "3.19.2025"
 
-API_KEY = "sk_live_1234567890abcdef" 
+API_KEY = "sk_live_1234567890abcdefg" 
 
 ACCOUNTS = {
     123456: {"balance": 1000.0},
