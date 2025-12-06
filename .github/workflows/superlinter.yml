@@ -10,3 +10,8 @@ jobs:
       
       - name: Run Super-Linter
         uses: super-linter/super-linter@v5
+
+      - name: Run Bandit Security Scan
+        uses: scottbrenner/bandit-action@master
+        with:
+            args: "-r . -f json -o bandit-results.json"
