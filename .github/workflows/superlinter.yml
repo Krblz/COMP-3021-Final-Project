@@ -11,7 +11,14 @@ jobs:
       - name: Run Super-Linter
         uses: super-linter/super-linter@v5
         
-      - name: Run Bandit Security Scan
-        uses: scottbrenner/bandit-action@master
+      - name: Install Bandit
+        run: pip install bandit
+      
+      - name: Run Bandit Scan
+        run: bandit -r . -f txt -o bandit-report.txt
+      
+      - name: Upload Bandit Report
+        uses: actions/upload-artifact@v3
         with:
-            args: "-r . -f json -o bandit-results.json"
+          name: bandit-security-report
+          path: bandit-report.txt
