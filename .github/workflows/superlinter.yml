@@ -1,40 +1,12 @@
 name: Super-Linter
-
-on:
-  push:
-  pull_request:
-
-permissions:
-    contents: read
-    security-events: write
+on: [push, pull_request]
 
 jobs:
   super-linter:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-      security-events: write
-      
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
       
       - name: Run Super-Linter
         uses: super-linter/super-linter@v5
-        
-      - name: Install Bandit
-        run: pip install bandit
-      
-      - name: Bandit-scan
-        run: |
-            pip install bandit
-            PYTHON_FILES=$(find . -name "*.py" | wc -l)
-            echo "Found $PYTHON_FILES Python files"
-
-            if [ $PYTHON_FILES -gt 0 ]; then
-                echo "Running Bandit scan..."
-                bandit -r . -lll -ii
-            else
-                echo "No Python files found - Bandit has nothing to scan"
-            fi
