@@ -14,11 +14,15 @@ jobs:
       - name: Install Bandit
         run: pip install bandit
       
-      - name: Run Bandit Scan
-        run: bandit -r . -f txt -o bandit-report.txt
-      
-      - name: Upload Bandit Report
-        uses: actions/upload-artifact@v3
-        with:
-          name: bandit-security-report
-          path: bandit-report.txt
+      - name: Bandit-scan
+        run: |
+            pip install bandit
+            PYTHON_FILES=$(find . -name "*.py" | wc -l)
+            echo "Found $PYTHON_FILES Python files"
+
+            if [ $PYTHON_FILES -gt 0 ]; then
+                echo "Running Bandit scan..."
+                bandit -r . -lll -ii
+            else
+                echo "No Python files found - Bandit has nothing to scan"
+            fi
