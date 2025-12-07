@@ -3,6 +3,8 @@
 __author__ = "Keith Robles"
 __version__ = "3.19.2025"
 
+# Code review in progress - security vulnerabilities identified
+
 API_KEY = "sk_live_1234567890abcdef" 
 
 ACCOUNTS = {
